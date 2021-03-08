@@ -35,14 +35,5 @@ public class TestTaskApplication {
                 thread2.start();
             }
         }
-
-
-
-
-
-
-
-
     }
-
 }

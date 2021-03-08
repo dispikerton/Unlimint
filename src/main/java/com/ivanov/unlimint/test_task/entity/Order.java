@@ -1,8 +1,8 @@
 package com.ivanov.unlimint.test_task.entity;
 
 import com.ivanov.unlimint.test_task.enums.CorrectEntry;
-import com.ivanov.unlimint.test_task.enums.Currency;
 
+import java.util.Currency;
 import java.util.concurrent.atomic.AtomicInteger;
 
 public class Order {
