@@ -1,4 +1,4 @@
-package com.ivanov.unlimint.test_task.csv_parser;
+package com.ivanov.unlimint.test_task.parsers;
 
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;

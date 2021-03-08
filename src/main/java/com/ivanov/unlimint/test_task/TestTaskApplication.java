@@ -1,9 +1,7 @@
 package com.ivanov.unlimint.test_task;
 
-import com.fasterxml.jackson.core.JsonProcessingException;
-import com.fasterxml.jackson.databind.ObjectMapper;
-import com.ivanov.unlimint.test_task.csv_parser.CSV;
-import com.ivanov.unlimint.test_task.csv_parser.JSON;
+import com.ivanov.unlimint.test_task.parsers.CSV;
+import com.ivanov.unlimint.test_task.parsers.JSON;
 import com.ivanov.unlimint.test_task.entity.Order;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

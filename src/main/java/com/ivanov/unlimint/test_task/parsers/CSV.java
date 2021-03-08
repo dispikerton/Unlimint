@@ -1,4 +1,4 @@
-package com.ivanov.unlimint.test_task.csv_parser;
+package com.ivanov.unlimint.test_task.parsers;
 
 import com.ivanov.unlimint.test_task.enums.CorrectEntry;
 import com.ivanov.unlimint.test_task.enums.Currency;
