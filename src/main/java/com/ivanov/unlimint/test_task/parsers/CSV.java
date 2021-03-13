@@ -4,6 +4,7 @@ import com.ivanov.unlimint.test_task.enums.CorrectEntry;
 import com.ivanov.unlimint.test_task.entity.Order;
 import org.apache.commons.csv.CSVFormat;
 import org.apache.commons.csv.CSVRecord;
+import org.springframework.stereotype.Component;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;
@@ -11,11 +12,10 @@ import java.util.ArrayList;
 import java.util.Currency;
 import java.util.List;
 
+@Component
 public class CSV {
     public List<Order> parse(File file) {
         List<Order> orders = new ArrayList<>();
-
-
         Order parsedOrder;
         int line = 1;
 
