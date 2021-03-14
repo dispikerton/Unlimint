@@ -10,9 +10,7 @@ public class TestTaskApplication {
     public static void main(String[] args) {
         SpringApplication.run(TestTaskApplication.class, args);
 
-        String[] files = new String[]{"sample.txt"};
-
         Parser parser = new Parser();
-        parser.parse(files);
+        parser.parse(args);
     }
 }
